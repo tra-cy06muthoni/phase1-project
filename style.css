@@ -1,0 +1,50 @@
+body {
+    font-family: 'MONTOTYPE COSSIVA', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #778a9e;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .quote-container {
+    margin-top: 50px;
+  }
+  
+  blockquote {
+    font-size: 50px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #e6c868;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(245, 243, 243, 0.938);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  blockquote:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-top: 30px;
+    background-color: #60578a;
+    color: #dad86e;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00b37d;
+  }
+  
